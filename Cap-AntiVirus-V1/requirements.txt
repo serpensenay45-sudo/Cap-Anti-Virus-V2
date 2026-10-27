@@ -1,0 +1,2 @@
+# Cap - Anti Virus V1
+# This project uses Python standard libraries; no extra package required.
