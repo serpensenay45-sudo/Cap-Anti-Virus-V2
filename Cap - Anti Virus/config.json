@@ -1,0 +1,119 @@
+{
+  "app_name": "Cap - Anti Virus",
+  "version": "2.0",
+  "language": "en",
+  "theme": "dark",
+  "vt_api_key": "97d098e14758504545ad97d29b698a55724dc6c7f75205fadb913d5aece4a7c7",
+  "scan_settings": {
+    "skip_dirs": [
+      "node_modules",
+      ".git",
+      "__pycache__",
+      "venv",
+      ".env",
+      "build",
+      "dist",
+      ".vscode",
+      ".idea"
+    ],
+    "skip_extensions": [
+      ".py",
+      ".pyc",
+      ".json",
+      ".txt",
+      ".md",
+      ".log",
+      ".ico",
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".gif",
+      ".bmp",
+      ".woff",
+      ".woff2",
+      ".ttf",
+      ".eot",
+      ".svg",
+      ".css",
+      ".html",
+      ".mp3",
+      ".mp4",
+      ".avi",
+      ".mkv",
+      ".mov",
+      ".wmv",
+      ".ogg",
+      ".wav",
+      ".flac",
+      ".aac",
+      ".wma",
+      ".zip",
+      ".rar",
+      ".7z",
+      ".tar",
+      ".gz",
+      ".pdf",
+      ".docx",
+      ".xlsx"
+    ],
+    "suspicious_extensions": [
+      ".exe",
+      ".dll",
+      ".bat",
+      ".cmd",
+      ".ps1",
+      ".vbs",
+      ".js",
+      ".scr",
+      ".pif",
+      ".com",
+      ".hta",
+      ".class",
+      ".jar",
+      ".msi",
+      ".psm1",
+      ".psd1",
+      ".lnk"
+    ],
+    "max_file_size_mb": 100,
+    "entropy_threshold": 7.8,
+    "heuristic_threshold": 3,
+    "min_file_size_for_entropy": 65536
+  },
+  "whitelist": {
+    "hashes": [],
+    "path_prefixes": [],
+    "extensions": []
+  },
+  "realtime_protection": {
+    "enabled": true,
+    "use_watchdog": true,
+    "monitor_paths": [],
+    "poll_interval_seconds": 5
+  },
+  "scheduler": {
+    "enabled": true,
+    "hour": 2,
+    "minute": 0,
+    "scan_type": "quick"
+  },
+  "quarantine": {
+    "encrypt": true,
+    "key": "",
+    "max_age_days": 30
+  },
+  "gui": {
+    "dark_mode": true,
+    "window_width": 1100,
+    "window_height": 800,
+    "system_tray": true,
+    "minimize_to_tray": true
+  },
+  "virustotal": {
+    "api_version": "v3",
+    "enabled": false
+  },
+  "history": {
+    "max_entries": 100
+  }
+}

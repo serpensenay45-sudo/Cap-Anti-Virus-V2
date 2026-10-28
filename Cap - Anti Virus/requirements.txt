@@ -1,0 +1,9 @@
+# Cap - Anti Virus V2
+# Required packages:
+#   cryptography  -> Karantina dosya şifrelemesi (Fernet)
+#   watchdog      -> Gerçek dosya sistemi olay izleyicisi (polling yerine)
+cryptography>=41.0.0
+watchdog>=3.0.0
+
+# Not: Bu proje Python standart kütüphanesini de kullanmaya devam eder.
+# Eğer watchdog yüklü değilse, geriye donuk polling modu kullanilir.

@@ -1,0 +1,15 @@
+{
+  "version": "2.0",
+  "updated": "2026-10-28",
+  "note": "Cap - Anti Virus V2 Signature Database. SHA-256 hashes of known malware. EICAR is a SAFE test file (not a virus) used to verify antivirus detection. Replace/add real malware hashes from trusted sources (VirusTotal, MalwareBazaar, etc.).",
+  "signatures": [
+    {
+      "hash": "13db60afb914a2ee9b3649d1947d58046d1a9e9b8e4114d80b1d5c142b4ed7fa",
+      "name": "EICAR-Test-File",
+      "type": "test",
+      "severity": "low",
+      "added": "2026-10-28",
+      "note": "Safe EICAR antivirus test file - not actual malware"
+    }
+  ]
+}
